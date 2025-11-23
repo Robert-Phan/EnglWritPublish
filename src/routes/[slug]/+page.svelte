@@ -181,6 +181,79 @@
 		padding: 0;
 	}
 
+	/* Font demonstration styles */
+	:global(.times-new-roman) {
+		font-family: 'Times New Roman', Times, serif;
+	}
+
+	:global(.helvetica) {
+		font-family: Helvetica, Arial, sans-serif;
+	}
+
+	:global(.arial) {
+		font-family: Arial, sans-serif;
+	}
+
+	:global(.garamond) {
+		font-family: 'EB Garamond', Garamond, serif;
+	}
+
+	:global(.georgia) {
+		font-family: Georgia, serif;
+	}
+
+	:global(.courier) {
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	:global(.gill-sans) {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	}
+
+	:global(.kbh) {
+		font-family: Arial, sans-serif;
+		letter-spacing: 0.05em;
+	}
+
+	:global(.eb-garamond) {
+		font-family: 'EB Garamond', Garamond, serif;
+	}
+
+	:global(.open-sans) {
+		font-family: 'Open Sans', Arial, sans-serif;
+	}
+
+	:global(.calibri) {
+		font-family: Calibri, Arial, sans-serif;
+	}
+
+	:global(.verdana) {
+		font-family: Verdana, Geneva, sans-serif;
+	}
+
+	:global(.dyslexie) {
+		font-family: 'OpenDyslexic', Arial, sans-serif;
+	}
+
+	:global(.ten-pt) {
+		font-size: 10pt;
+	}
+
+	:global(.twelve-pt) {
+		font-size: 12pt;
+	}
+
+	:global(.ten-pt-italic-arial) {
+		font-family: Arial, sans-serif;
+		font-size: 10pt;
+		font-style: italic;
+	}
+
+	:global(.ten-pt-arial) {
+		font-family: Arial, sans-serif;
+		font-size: 10pt;
+	}
+
 	@media (max-width: 768px) {
 		.sidebar {
 			position: static;
